@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="css/fuentes.css"> <link rel="stylesheet" href="css/styles.css"> <link rel="stylesheet" href="css/media-queries.css">
+    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+    <title>Ignacio Busneta</title>
+</head>
+<body>
+    <section class="header-section">
+        <header class="header">
+            <div class="header__openclose">
+                <span class="material-symbols-outlined header__ocbutton">menu</span>
+            </div>
+            <div class="header__div div__logo">
+                <span class="header__logoTitle">IGNACIO</span>
+                <span class="header__logoSubtitle">BUSNETA</span>
+            </div>
+            <div class="header__nav-wrapper oculto">
+                <span class="material-symbols-outlined header__ocbutton">menu</span>
+                <nav  class="header__nav oculto">
+                <a href="#s1" class="nav__item">Inicio</a>
+                <a href="#s2" class="nav__item">Opiniones</a>
+                <a href="#s3" class="nav__item">Consejos de entrenador</a>
+                <a href="#s4" class="nav__item">Filosofía</a>
+                <a href="#s5" class="nav__item">Planes de entrenamiento</a>
+                <a href="#s6" class="nav__item">Preguntas Frecuentes</a>
+                <a href="#s7" class="nav__item button__openContacto">Contacto</a>
+            </nav>
+            </div>
+            <div class="header__div div__whatsapp oculto">
+                <a class="header__wa" id="footerWA" href="https://www.whatsapp.com/?lang=es_LA" target="_blank">
+                    <svg class="header__wa-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7 .9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"/></svg>
+                    <span class="header__wa-text">WhatsApp</span>
+                </a>
+            </div>
+        </header>
+    </section>
+    <section class="main-section">
+        <main class="main">
+            <div class="sector_inicio" id="s1">
+                <div class="inicio__video-wrapper">
+                    <video autoplay muted loop class="inicio__video activo" id="inicioVideo1">
+                        <source src="vid/100546-video-720.mp4" type="video/mp4">
+                    </video>
+                    <video autoplay muted loop class="inicio__video" id="inicioVideo2">
+                        <source src="vid/100549-video-720.mp4" type="video/mp4">
+                    </video>
+                    <video autoplay muted loop class="inicio__video" id="inicioVideo3">
+                        <source src="vid/100554-video-720.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="inicio-container">
+                    <h1 class="inicio__title">Es hora de tu nuevo entrenador personal</h1>
+                    <p class="inicio__text blur">No esperes resultados distintos haciendo lo mismo. Si de verdad deseas lograr tu cambio, da el siguiente paso y empezá a entrenar con alguien que sabe.</p>
+                    <br>
+                        <div class="inicio__button-container">
+                            <a class="material-symbols-outlined inicio__button blur" href="#s2">arrow_downward</a>
+                        </div>
+                </div>
+            </div>
+            <div class="sector_resultados" id="s2">
+                <div class="resultados-container">
+                    <div class="resultados__opiniones">
+                        <div class="opinion">
+                            <div class="opinion__img-wrapper">
+                                <img class="opinion__img" src="img/clientes/c1a.jpg">
+                                <img class="opinion__img" src="img/clientes/c1b.jpg">
+                            </div>
+                            <p class="parrafo opinion__text">
+                                "Dato curioso: hicimos casi todo el plan a distancia, por videollamada. Vivo lejos, pero Nacho se acomodó a mis horarios y no me soltó nunca. Me corregía la postura hasta por cámara. La verdad, pensé que iba a ser medio trucho entrenar así, pero terminé sorprendido. ¡Los resultados están a la vista!"
+                            </p>
+                            <div class="opinion__quote-wrapper">   
+                                <svg xmlns="http://www.w3.org/2000/svg" width="27" height="21" viewBox="0 0 34 27"><path d="M12.0114 0.5L13.8519 3.84848C12.8186 5.29293 11.85 6.90151 10.9459 8.67424C10.1064 10.447 9.62203 12.2854 9.49288 14.1894L14.8205 15.1742V26.5H0V18.4242C0 13.7626 1.06553 10.0202 3.19658 7.19697C5.39221 4.30808 8.33048 2.07576 12.0114 0.5ZM31.1909 0.5L33.0313 3.84848C31.9981 5.29293 31.0294 6.90151 30.1254 8.67424C29.2858 10.447 28.8015 12.2854 28.6724 14.1894L34 15.1742V26.5H19.1795V18.4242C19.1795 13.7626 20.245 10.0202 22.3761 7.19697C24.5717 4.30808 27.51 2.07576 31.1909 0.5Z"></path></svg>
+                            </div>
+                            <h3 class="opinion__nombre">Yeibert Moreno</h3>
+                        </div>
+                        <div class="opinion">
+                            <div class="opinion__img-wrapper">
+                                <img class="opinion__img" src="img/clientes/c2a.jpg">
+                                <img class="opinion__img" src="img/clientes/c2b.jpg">
+                            </div>
+                            <p class="parrafo opinion__text">
+                                "Antes de entrenar con Ignacio, no podía hacer ni cinco flexiones seguidas. Hoy, no solo puedo con eso, sino que hasta me animo a la barra. El loco te empuja sin gritarte, te explica todo y se nota que sabe. Lo mejor es que nunca me sentí juzgado. Gracias a él, volví a sentirme bien conmigo mismo."
+                            </p>
+                            <div class="opinion__quote-wrapper">   
+                                <svg xmlns="http://www.w3.org/2000/svg" width="27" height="21" viewBox="0 0 34 27"><path d="M12.0114 0.5L13.8519 3.84848C12.8186 5.29293 11.85 6.90151 10.9459 8.67424C10.1064 10.447 9.62203 12.2854 9.49288 14.1894L14.8205 15.1742V26.5H0V18.4242C0 13.7626 1.06553 10.0202 3.19658 7.19697C5.39221 4.30808 8.33048 2.07576 12.0114 0.5ZM31.1909 0.5L33.0313 3.84848C31.9981 5.29293 31.0294 6.90151 30.1254 8.67424C29.2858 10.447 28.8015 12.2854 28.6724 14.1894L34 15.1742V26.5H19.1795V18.4242C19.1795 13.7626 20.245 10.0202 22.3761 7.19697C24.5717 4.30808 27.51 2.07576 31.1909 0.5Z"></path></svg>
+                            </div>
+                            <h3 class="opinion__nombre">Mario</h3>
+                        </div>
+                    </div>
+                    <div class="resultados__title-wrapper">
+                        <h2 class="resultados__title">Nuestras opiniones</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="sector_blog" id="s3">
+                    <div>
+                        <div>
+                        <h2 class="blog__bigtitle">Consejos de entrenador</h2>
+                        <div class="blog-container">
+                            <article class="blog">
+                                <div class="blog__header">
+                                    <span class="blog__icon">🍗</span>
+                                    <h3 class="blog__title">¿Cuánta proteina necesitás comer por día?</h3>
+                                </div>
+                                <p class="blog__description">La cantidad que demande tu peso, objetivo y tu metodología de entrenamiento..</p>
+                                <a href="" class="blog__link">Leer más</a>
+                            </article>
+                            <article class="blog">
+                                <div class="blog__header">
+                                    <span class="blog__icon">📉</span>
+                                    <h3 class="blog__title">5 errores que matan tu progreso</h3>
+                                </div>
+                                <p class="blog__description">Entrenar más no siempre es mejor. Este artículo te lo explica claro.</p>
+                                <a href="" class="blog__link">Leer más</a>
+                            </article>
+                            <article class="blog">
+                                <div class="blog__header">
+                                    <span class="blog__icon">🧠</span>
+                                    <h3 class="blog__title">Mentalidad de entrenamiento</h3>
+                                </div>
+                                <p class="blog__description">Evitá sabotearte y sostené tu hábito de entrenar.</p>
+                                <a href="" class="blog__link">Leer más</a>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sector_filosofia" id="s4">
+                <div class="filosofia-container">
+                    <span class="filosofia__icon">...</span>
+                    <h2 class="filosofia__title">¿Por qué elegirme?</h2>
+                    <div class="filosofia__content">
+                        <img src="img/ignacio-agachado.jpeg" class="filosofia__img">
+                        <p class="parrafo filosofia__text">
+                            Soy Ignacio Busneta. Entrenador personal, sí, pero antes que eso, un <span class="negrita">apasionado del entrenamiento</span>. Hace más de doce años que arranqué este camino, y todavía siento que estoy empezando. Me formé en el <span class="negrita">Instituto Universitario River Plate</span>, pero mi aprendizaje va mucho más allá del aula. Lo que entendí es que el cuerpo no se trata solo de músculos, sino de entenderlo con paciencia, con constancia, con cabeza.
+                            <span class="separador"></span>
+                            Al principio no sabía nada. Entrenaba en un gimnasio de barrio, metiéndole ganas y equivocándome <span class="negrita">mil veces</span>. Pero cada <span class="negrita">error</span> me empujaba a aprender. Esto que empezó como un hobby se volvió mi <span class="negrita">forma de vida</span>. Y no hay vuelta atrás.
+                            <span class="separador"></span>
+                            No creo en fórmulas <span class="negrita">mágicas</span> ni en <span class="negrita">atajos</span>. Creo en el esfuerzo real, el que <span class="negrita">duele</span> y <span class="negrita">forma carácter</span>. Creo en la <span class="negrita">disciplina</span>, en ponerle el pecho a los días que cuestan, y en rodearse de gente que te empuje a <span class="negrita">crecer</span>. Por eso, hoy quiero compartir todo lo que aprendí: en la facultad, en el gimnasio, en la cancha y en la vida. Porque este camino no lo transité para guardármelo. Si estás listo para comprometerte con vos mismo, estoy para apoyarte.
+                        </p>
+                        <h3 class="filosofia__frase">El cambio llega cuando dejás de buscar comodidad y empezás a buscar verdad. Y esa verdad, te transforma.</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="sector_planes" id="s5">
+                <div class="planes-container">
+                    <div class="plan">
+                        <div class="plan-header">
+                            <div class="plan__etiqueta">Más pedido</div>
+                            <h2 class="plan__title">Inicial</h2>
+                        </div>
+                        <div class="plan-price">$47.999</div>
+                        <h3 class="plan__subtitle">Trimestral</h3>
+                        <ul class="plan__benefits">
+                            <li>Rutina básica de entrenamiento</li>
+                            <li>Plan básico de alimentación</li>
+                            <li>Contacto 24/7 por WhatsApp</li>
+                        </ul>
+                        <a href="" class="plan__buy">Solicitar Plan</a>
+                    </div>
+                    <div class="plan">
+                        <div class="plan-header">
+                            <div class="plan__etiqueta">Calidad/Precio</div>
+                            <h2 class="plan__title">Avanzado</h2>
+                        </div>
+                        <div class="plan-price">$91.999</div>
+                        <h3 class="plan__subtitle">Trimestral</h3>
+                        <ul class="plan__benefits">
+                            <li>Videos explicativos</li>
+                            <li>Rutina de entrenamiento personalizada</li>
+                            <li>Plan de alimentación personalizado</li>
+                            <li>Contacto 24/7 por WhatsApp</li>
+                        </ul>
+                        <a href="" class="plan__buy">Solicitar Plan</a>
+                    </div>
+                    <div class="plan">
+                        <div class="plan-header">
+                            <div class="plan__etiqueta">Exclusivo</div>
+                            <h2 class="plan__title">Atleta</h2>
+                        </div>
+                        <div class="plan-price">$119.999</div>
+                        <h3 class="plan__subtitle">Mensual</h3>
+                        <ul class="plan__benefits">
+                            <li>Preparación física en cualquier deporte de alto rendimiento</li>
+                            <li>Entrenamientos en persona</li>
+                            <li>Rutina de entrenamiento personalizada</li>
+                            <li>Plan de alimentación personalizado</li>
+                            <li>Contacto 24/7 por WhatsApp</li>
+                        </ul>
+                        <a href="" class="plan__buy">Solicitar Plan</a>
+                    </div>
+                </div>
+            </div>
+            <div class="sector_faq" id="s6">
+                <div class="faq-container">
+                    <div class="faq">
+                        <h2 class="faq__title">PREGUNTAS FRECUENTES</h2>
+                        <div class="faq__pregunta-wrapper">
+                            <div class="faq__pregunta">
+                                <div class="faq__pregunta-title-wrapper">
+                                    <h3 class="faq__pregunta-title">¿Puedo entrenar desde casa?</h3>
+                                    <button class="material-symbols-outlined">keyboard_arrow_down</button>
+                                </div>
+                                <p class="faq__pregunta-respuesta cerrada">
+                                    Sí, mientras puedas cumplir con la intensidad del entrenamiento, podés hacerlo. Tenés que hacerlo de la forma que haga que te guste.
+                                </p>
+                            </div>
+                            <div class="faq__pregunta">
+                                <div class="faq__pregunta-title-wrapper">
+                                    <h3 class="faq__pregunta-title">¿Cómo es el seguimiento?</h3>
+                                    <button class="material-symbols-outlined">keyboard_arrow_down</button>
+                                </div>
+                                <p class="faq__pregunta-respuesta cerrada">
+                                    El seguimiento se basa en ver la evolución de tu peso, altura, fuerza, a partir de tu entrenamiento, dieta y descanso. Estas últimas variables, las vamos ajustando para lograr cambios u adaptaciones.
+                                </p>
+                            </div>
+                            <div class="faq__pregunta">
+                                <div class="faq__pregunta-title-wrapper">
+                                    <h3 class="faq__pregunta-title">Nunca fui al gimnasio, ¿y si lo hago mal?</h3>
+                                    <button class="material-symbols-outlined">keyboard_arrow_down</button>
+                                </div>
+                                <p class="faq__pregunta-respuesta cerrada">
+                                    Nadie arranca sabiendo. Si tu progreso se frena, ajustamos la intensidad, técnica de los ejercicios, o la dieta. Lo importante es que no dejes de entrenar, no que lo hagas perfecto.
+                                </p>
+                            </div>
+                            <div class="faq__pregunta">
+                                <div class="faq__pregunta-title-wrapper">
+                                    <h3 class="faq__pregunta-title">
+                                        ¿Todos los planes incluyen una guía de alimentación?
+                                    </h3>
+                                    <button class="material-symbols-outlined">keyboard_arrow_down</button>
+                                </div>
+                                <p class="faq__pregunta-respuesta cerrada">
+                                    Sí, todos los planes la incluyen. El plan Inicial incluye una guía de alimentación básica según tu objetivo, es decir, para subir masa muscular, definición, y mantenimiento. Los demás planes, ofrecen una guía de alimentación <span class="negrita">personalizada</span>, es decir, que se adapta a tu entrenamiento, tu actividad diaria, y tu vida personal.
+                                </p>
+                            </div>
+                            <div class="faq__pregunta">
+                                <div class="faq__pregunta-title-wrapper">
+                                    <h3 class="faq__pregunta-title">¿Cuándo empiezo a ver resultados?</h3>
+                                    <button class="material-symbols-outlined">keyboard_arrow_down</button>
+                                </div>
+                                <p class="faq__pregunta-respuesta cerrada">
+                                    Los resultados se ven de manera progresiva. Aún así, a partir de los <span class="negrita">3 meses</span> se ve un considerable cambio, generalmente. Si avanzás más en el tiempo, vas a tener mayores resultados todavía.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sector_contacto" id="s7">
+                <ul class="contacto__information">
+                    <h2 class="contacto__info-title">Mis datos</h2>
+                    <li class="contacto__info-item">
+                        <span class="material-symbols-outlined contacto__info-icon">mail</span>
+                        <a class="contacto__info-text" href="mailto:igbusTraining@gmail.com">igbusTraining@gmail.com</a>
+                    </li>
+                    <li class="contacto__info-item">
+                        <span class="material-symbols-outlined contacto__info-icon">call</span>
+                        <a class="contacto__info-text">1130307604</a>
+                    </li>
+                    <li class="contacto__info-item">
+                        <span class="material-symbols-outlined contacto__info-icon">location_on</span>
+                        <a class="contacto__info-text" href="mailto:">Capital Federal, Argentina</a>
+                    </li>
+                    <button class="contacto__info-button">Contactame</button>
+                </ul>
+                <div class="contacto-wrapper oculto muyoculto">
+                    <button class="material-symbols-outlined contacto__close-button">close</button>
+                    <div class="contacto-container oculto">
+                    <h2 class="contacto__title">Contacto</h2>
+                    <form action="" class="contacto">
+                        <div>
+                            <label for="f-nombre" class="contacto__label">Nombre</label>
+                            <input required maxlength="20" id="f-nombre" name="f-nombre" placeholder="Escribí tu nombre" type="text" class="contacto__input">
+                        </div>
+                        <div>
+                            <label for="f-email" class="contacto__label">Email</label>
+                            <input required maxlength="35" id="f-email" name="f-email" placeholder="Escribí tu correo" type="email" class="contacto__input">
+                        </div>
+                        <div>
+                            <label for="f-tel" class="contacto__label">N° de Teléfono</label>
+                            <input required maxlength="18" id="f-tel" name="f-tel" placeholder="Escríbi tu número de teléfono" type="number" class="contacto__input">
+                        </div>
+                        <div>
+                            <label for="f-mensaje" class="contacto__label">Mensaje</label>
+                            <textarea required maxlength="256" id="f-mensaje" name="f-mensaje" placeholder="Escribí acá tu mensaje, consultas, pedidos, opinión" class="contacto__input"></textarea>
+                        </div>
+                        <input type="submit" class="contacto__enviar" value="Enviar">
+                    </form>
+                </div>
+                </div>
+            </div>
+        </main>
+    </section>
+    <section class="footer-section">
+        <footer class="footer">
+            <div class="footer__superior">
+                <ul class="footer__links">
+                    <li class="footer__item"><a href="#s1" class="footer__item-link">Inicio</a></li>
+                    <li class="footer__item"><a href="#s2" class="footer__item-link">Opiniones</a></li>
+                    <li class="footer__item"><a href="#s3" class="footer__item-link">Consejos de entrenador</a></li>
+                    <li class="footer__item"><a href="#s4" class="footer__item-link">Filosofía</a></li>
+                    <li class="footer__item"><a href="#s5" class="footer__item-link">Planes</a></li>
+                    <li class="footer__item"><a href="#s6" class="footer__item-link">Preguntas Frecuentes</a></li>
+                    <li class="footer__item"><a href="#s7" class="footer__item-link">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="footer__medio">
+                <a class="footer__link" id="footerIG" href="https://instagram.com" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>
+                </a>
+                <a class="footer__link" id="footerTK" href="https://tiktok.com" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M448 209.9a210.1 210.1 0 0 1 -122.8-39.3V349.4A162.6 162.6 0 1 1 185 188.3V278.2a74.6 74.6 0 1 0 52.2 71.2V0l88 0a121.2 121.2 0 0 0 1.9 22.2h0A122.2 122.2 0 0 0 381 102.4a121.4 121.4 0 0 0 67 20.1z"/></svg>
+                </a>
+                <a class="footer__link" id="footerWA" href="https://www.whatsapp.com/?lang=es_LA" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7 .9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"/></svg>
+                </a>
+            </div>
+            <div class="footer__inferior">
+                <p class="footer__derechos">© 2025 Ignacio Busneta. Todos los derechos reservados.</p>
+            </div>
+        </footer>
+    </section>
+    <script src="js/animations.js"></script>
+</body>
+</html>
